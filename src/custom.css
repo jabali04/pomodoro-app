@@ -1,0 +1,289 @@
+:root {
+    --light-main: #484b6a;
+    --light-main-hover: #3a3c53;
+    --light-white: white;
+    --dark-main: #041C32;
+    --dark-main-hover: #c79755;
+    --dark-yellow: #ECB365;
+}
+
+* { 
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
+}
+
+h1 {
+    font-size: calc(7rem + 1.5vw);
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+
+/* CENTRAL DIV */
+.centralDiv{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 10px 20px 10px;
+    border-radius: 2%;
+}
+
+.lightDiv {
+    background-color: #e0e1ea;
+
+}
+.darkDiv {
+    background-color: #04293A;
+}
+
+
+
+/* TITLE */
+.lightTitle{
+    color: var(--light-main);;
+}
+.darkTitle{
+    color: var(--dark-yellow);
+}
+
+/* GEAR ICON */
+.lightGearIcon {
+    color: var(--light-main);
+    font-size: 40px;
+}
+.darkGearIcon{
+    color: var(--dark-yellow);
+    font-size: 40px;
+}
+
+
+
+/* TIME COLOR */
+.lightRenderedTime {
+    color: var(--light-main);;
+}
+.darkRenderedTime {
+    color: var(--dark-yellow);
+}
+
+
+/*Down Buttons */
+.downButton {
+    font-size: 40px;
+    width: 75%;
+    border: none;
+}
+
+.lightButtonStart {
+    color: var(--light-white);
+    background-color: var(--light-main);;
+}
+.lightButtonStart:hover{
+    color: var(--light-white);
+    background-color:  var(--light-main-hover);
+}
+
+.lightButtonStop {
+    color: var(--light-white);
+    background-color: var(--light-main);
+}
+.lightButtonStop:hover{
+    color:  var(--light-white);
+    background-color: var(--light-main-hover);
+}
+
+.darkButtonStart {
+    color: var(--dark-main)	;
+    background-color: var(--dark-yellow);
+}
+.darkButtonStart:hover{
+    color: var(--dark-main);
+    background-color: var(--dark-main-hover);
+}
+
+.darkButtonStop {
+    color: var(--dark-main)	;
+    background-color: var(--dark-yellow);
+}
+.darkButtonStop:hover{
+    color: var(--dark-main)	;
+    background-color: var(--dark-main-hover);
+}
+
+
+/* UP BUTTONS */
+.lightUpButtonsDiv {
+    background-color: var(--light-main);;
+    border-radius: 4%;
+}
+.darkUpButtonsDiv {
+    background-color: var(--dark-yellow);
+    border-radius: 4%;
+}
+.upButtons{
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-outline-success {
+    --bs-btn-active-color: var(--light-white);
+    --bs-btn-active-bg: var(--light-main);;
+    --bs-btn-active-border-color: var(--light-main);;
+    --bs-btn-disabled-color: var(--light-white);
+    --bs-btn-disabled-border-color: var(--light-main);;
+}
+.btn-outline-primary {
+    --bs-btn-active-color: var(--dark-main);
+    --bs-btn-active-bg: var(--dark-yellow);
+    --bs-btn-active-border-color:var(--dark-yellow);
+    --bs-btn-disabled-color: var(--dark-main);
+    --bs-btn-disabled-border-color: var(--dark-yellow);
+}
+
+
+/* PROGRESS BAR */
+.bg-warning {
+    background-color: var(--light-main) !important;
+}
+.bg-success {
+    background-color: var(--dark-yellow) !important;
+}
+
+
+/* SEPARATOR */
+.lightLine {
+    border-bottom: 1px solid rgb(214, 208, 208);
+}
+.darkLine {
+    border-bottom: 1px solid #534024;
+}
+
+
+/* SETTINGS button */
+.settingsButton{
+    border-radius: 20%;
+}
+.btn-success {
+    --bs-btn-bg: var(--light-main);
+    --bs-btn-border-color: var(--light-main);
+    --bs-btn-color: var(--light-white);
+    --bs-btn-hover-bg: var(--light-main-hover);
+    --bs-btn-hover-border-color: var(--light-main-hover);
+    --bs-btn-hover-color:var(--light-white);
+    --bs-btn-active-bg: var(--light-main);
+    --bs-btn-active-border-color: var(--light-white);
+}
+.btn-warning {
+    --bs-btn-bg: var(--dark-yellow);
+    --bs-btn-color: var(--dark-main);
+    --bs-btn-border-color:  var(--dark-yellow);
+    --bs-btn-hover-bg: var(--dark-main-hover);
+    --bs-btn-hover-color: var(--dark-main);
+    --bs-btn-hover-border-color: var(--dark-main-hover);
+}
+
+
+/* MODAL GENERAL */
+.modal {
+    width: 70%;
+    position: fixed;
+    top: 50px;
+    left:  calc(100% - 85vw);
+}
+
+.modalLight {
+    color: var(--light-main);
+}
+
+.modalDark {
+    color: var(--dark-yellow);
+}
+
+
+/* Rounded Input */
+.form-check-input:checked {
+    background-color: var(--light-main);
+    border-color: var(--light-main);;
+}
+.form-check-input-dark {
+    background-color: var(--light-white);
+    border-color: var(--dark-main);
+}
+.form-check-input-dark:checked {
+    background-color: var(--dark-yellow);
+    border-color: var(--dark-yellow);
+}
+
+
+/* SPAN MINUTES CONFIG */
+.customSpanLight {
+    background-color: var(--light-main);;
+    color: var(--light-white);
+}
+
+.customSpanDark {
+    background-color: var(--dark-yellow);
+    color: var(--dark-main);
+}
+
+
+/* INPUT TO RECEIVE THE TIME */
+.form-control:focus {
+    border-color: var(--light-main);;
+    box-shadow: inset 0 1px 1px #8b90c4, 0 0 8px #8b90c4;
+}
+
+.form-control-dark:hover {
+    border-color: var(--dark-yellow);
+    box-shadow: inset 0 1px 1px var(--dark-main-hover), 0 0 8px var(--dark-main-hover);
+}
+
+
+/* MODAL, DOWN BUTTONS */
+.lightDownButton{
+    background-color: var(--light-main);;
+    color: var(--light-white);
+}
+
+.lightDownButton:hover{
+    background-color: var(--light-main-hover);
+    color: var(--light-white);
+}
+
+.darkDownButton{
+    background-color: var(--dark-yellow);
+    color: var(--dark-main);
+}
+
+.darkDownButton:hover{
+    background-color: var(--dark-main-hover);
+    color: var(--dark-main);
+}
+
+
+/* MODAL COLOR BODY */
+.lightBody{
+    background-color: var(--light-white);
+}
+
+.darkBody{
+    background-color: #04293A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
