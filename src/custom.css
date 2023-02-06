@@ -14,7 +14,7 @@
 }
 
 h1 {
-    font-size: calc(7rem + 1.5vw);
+    font-size: 150px;
     text-align: center;
 }
 
@@ -277,7 +277,7 @@ h2 {
 /* MEDIA QUERIES---- MEDIUM DEVICES */
 @media screen and (max-width: 1018px){
     h1 {
-        font-size: calc(5rem + 1.5vw);
+        font-size: 100px;
     }
 }
 
@@ -285,6 +285,6 @@ h2 {
 /* MEDIA QUERIES---- SMALL DEVICES */
 @media screen and (max-width: 600px){
     h1 {
-        font-size: calc(3rem + 1.5vw);
+        font-size: 80px;
     }
 }
