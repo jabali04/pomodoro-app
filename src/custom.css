@@ -274,16 +274,17 @@ h2 {
 
 
 
+/* MEDIA QUERIES---- MEDIUM DEVICES */
+@media screen and (max-width: 1018px){
+    h1 {
+        font-size: calc(5rem + 1.5vw);
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* MEDIA QUERIES---- SMALL DEVICES */
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: calc(3rem + 1.5vw);
+    }
+}
